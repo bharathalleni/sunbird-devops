@@ -3,7 +3,7 @@
 - name: Creating X-Auth-Token
   block:
   - uri:
-      url: "https://{{domain_name}}/auth/realms/sunbird/protocol/openid-connect/token"
+      url: "http://{{domain_name}}/auth/realms/sunbird/protocol/openid-connect/token"
       method: POST
       body_format: form-urlencoded
       body:
@@ -19,7 +19,7 @@
 - name: Creating root org
   block:
   - uri:
-      url: "https://{{ domain_name }}/api/org/v1/create"
+      url: "http://{{ domain_name }}/api/org/v1/create"
       method: POST
       headers:
         x-authenticated-user-token: "{{ keycloak_access_token }}"
@@ -47,7 +47,7 @@
 - name: Creating NTP org for login
   block:
   - uri:
-      url: "https://{{ domain_name }}/api/org/v1/create"
+      url: "http://{{ domain_name }}/api/org/v1/create"
       method: POST
       headers:
         x-authenticated-user-token: "{{ keycloak_access_token }}"

@@ -2,6 +2,7 @@
 
 - name: Make sure cassandra is up and listening
   wait_for:
+    host: {{ansible_ssh_host}}
     port: 9042
     timeout: 180
     sleep: 10

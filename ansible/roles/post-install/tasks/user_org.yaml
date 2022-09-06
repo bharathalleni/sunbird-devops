@@ -20,7 +20,7 @@
 
 - name: Crating Users
   uri:
-    url: "https://{{ domain_name }}/api/user/v2/signup"
+    url: "http://{{ domain_name }}/api/user/v2/signup"
     method: POST
     headers:
       Authorization: "Bearer {{ core_vault_sunbird_api_auth_token }}"
@@ -41,7 +41,7 @@
 
 - name: Assigning roles to user
   uri:
-    url: "https://{{ domain_name }}/api/user/v2/role/assign"
+    url: "http://{{ domain_name }}/api/user/v2/role/assign"
     method: POST
     headers:
       Authorization: "Bearer {{ core_vault_sunbird_api_auth_token }}"
@@ -167,7 +167,7 @@
   block:
   - name: Creating state
     uri:
-      url: "https://{{ domain_name }}/api/data/v1/location/create"
+      url: "http://{{ domain_name }}/api/data/v1/location/create"
       method: POST
       headers:
         x-authenticated-user-token: "{{ keycloak_access_token }}"
@@ -185,7 +185,7 @@
   block:
   - name: Crating District
     uri:
-      url: "https://{{ domain_name }}/api/data/v1/location/create"
+      url: "http://{{ domain_name }}/api/data/v1/location/create"
       method: POST
       headers:
         x-authenticated-user-token: "{{ keycloak_access_token }}"
@@ -203,7 +203,7 @@
   block:
   - name: Crating block
     uri:
-      url: "https://{{ domain_name }}/api/data/v1/location/create"
+      url: "http://{{ domain_name }}/api/data/v1/location/create"
       method: POST
       headers:
         x-authenticated-user-token: "{{ keycloak_access_token }}"
@@ -221,7 +221,7 @@
   block:
   - name: Crating cluster
     uri:
-      url: "https://{{ domain_name }}/api/data/v1/location/create"
+      url: "http://{{ domain_name }}/api/data/v1/location/create"
       method: POST
       headers:
         x-authenticated-user-token: "{{ keycloak_access_token }}"

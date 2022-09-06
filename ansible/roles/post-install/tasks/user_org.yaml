@@ -55,107 +55,107 @@
             {
               "role": "ORG_ADMIN",
               "operation":"add",
-              "scope": [{ "organisationId": "{{ sunbird_custodian_org_id }}" }]
+              "scope": [{ "organisationId": "0136188242050498565" }]
             },
             {
               "role": "REPORT_ADMIN",
               "operation":"add",
-              "scope": [{ "organisationId": "{{ sunbird_custodian_org_id }}" }]
+              "scope": [{ "organisationId": "0136188242050498565" }]
             },
             {
               "role": "CONTENT_REVIEWER",
               "operation":"add",
-              "scope": [{ "organisationId": "{{ sunbird_custodian_org_id }}" }]
+              "scope": [{ "organisationId": "0136188242050498565" }]
             },
             {
               "role": "COURSE_MENTOR",
               "operation":"add",
-              "scope": [{ "organisationId": "{{ sunbird_custodian_org_id }}" }]
+              "scope": [{ "organisationId": "0136188242050498565" }]
             },
             {
               "role": "OFFICIAL_TEXTBOOK_BADGE_ISSUER",
               "operation":"add",
-              "scope": [{ "organisationId": "{{ sunbird_custodian_org_id }}" }]
+              "scope": [{ "organisationId": "0136188242050498565" }]
             },
             {
               "role": "PUBLIC",
               "operation":"add",
-              "scope": [{ "organisationId": "{{ sunbird_custodian_org_id }}" }]
+              "scope": [{ "organisationId": "0136188242050498565" }]
             },
             {
               "role": "ORG_MANAGEMENT",
               "operation":"add",
-              "scope": [{ "organisationId": "{{ sunbird_custodian_org_id }}" }]
+              "scope": [{ "organisationId": "0136188242050498565" }]
             },
             {
               "role": "TEACHER_BADGE_ISSUER",
               "operation":"add",
-              "scope": [{ "organisationId": "{{ sunbird_custodian_org_id }}" }]
+              "scope": [{ "organisationId": "0136188242050498565" }]
             },
             {
               "role": "CONTENT_CREATOR",
               "operation":"add",
-              "scope": [{ "organisationId": "{{ sunbird_custodian_org_id }}" }]
+              "scope": [{ "organisationId": "0136188242050498565" }]
             },
             {
               "role": "CONTENT_CURATION",
               "operation":"add",
-              "scope": [{ "organisationId": "{{ sunbird_custodian_org_id }}" }]
+              "scope": [{ "organisationId": "0136188242050498565" }]
             },
             {
               "role": "SYSTEM_ADMINISTRATION",
               "operation":"add",
-              "scope": [{ "organisationId": "{{ sunbird_custodian_org_id }}" }]
+              "scope": [{ "organisationId": "0136188242050498565" }]
             },
             {
               "role": "ANNOUNCEMENT_SENDER",
               "operation":"add",
-              "scope": [{ "organisationId": "{{ sunbird_custodian_org_id }}" }]
+              "scope": [{ "organisationId": "0136188242050498565" }]
             },
             {
               "role": "PROGRAM_MANAGER",
               "operation":"add",
-              "scope": [{ "organisationId": "{{ sunbird_custodian_org_id }}" }]
+              "scope": [{ "organisationId": "0136188242050498565" }]
             },
             {
               "role": "REPORT_VIEWER",
               "operation":"add",
-              "scope": [{ "organisationId": "{{ sunbird_custodian_org_id }}" }]
+              "scope": [{ "organisationId": "0136188242050498565" }]
             },
             {
               "role": "FLAG_REVIEWER",
               "operation":"add",
-              "scope": [{ "organisationId": "{{ sunbird_custodian_org_id }}" }]
+              "scope": [{ "organisationId": "0136188242050498565" }]
             },
             {
               "role": "CONTENT_REVIEW",
               "operation":"add",
-              "scope": [{ "organisationId": "{{ sunbird_custodian_org_id }}" }]
+              "scope": [{ "organisationId": "0136188242050498565" }]
             },
             {
               "role": "CONTENT_CREATION",
               "operation":"add",
-              "scope": [{ "organisationId": "{{ sunbird_custodian_org_id }}" }]
+              "scope": [{ "organisationId": "0136188242050498565" }]
             },
             {
               "role": "MEMBERSHIP_MANAGEMENT",
               "operation":"add",
-              "scope": [{ "organisationId": "{{ sunbird_custodian_org_id }}" }]
+              "scope": [{ "organisationId": "0136188242050498565" }]
             },
             {
               "role": "COURSE_CREATOR",
               "operation":"add",
-              "scope": [{ "organisationId": "{{ sunbird_custodian_org_id }}" }]
+              "scope": [{ "organisationId": "0136188242050498565" }]
             },
             {
               "role": "BOOK_CREATOR",
               "operation":"add",
-              "scope": [{ "organisationId": "{{ sunbird_custodian_org_id }}" }]
+              "scope": [{ "organisationId": "0136188242050498565" }]
             },
             {
               "role": "BOOK_REVIEWER",
               "operation":"add",
-              "scope": [{ "organisationId": "{{ sunbird_custodian_org_id }}" }]
+              "scope": [{ "organisationId": "0136188242050498565" }]
             }]
       }
      }

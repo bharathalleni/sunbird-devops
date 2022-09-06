@@ -32,12 +32,12 @@
 #   with_items: "{{ default_user_details }}"
 #   register: user_list
 
-- name: Assigning roles to user
-  debug:
-    msg: "{{ item.json.result.userId }}"
-  with_items: "{{ user_list.results }}"
-  loop_control:
-    label: "{{ item.item.email }}"
+# - name: Assigning roles to user
+#   debug:
+#     msg: "{{ item.json.result.userId }}"
+#   with_items: "{{ user_list.results }}"
+#   loop_control:
+#     label: "{{ item.item.email }}"
 
 - name: Assigning roles to user
   uri:
